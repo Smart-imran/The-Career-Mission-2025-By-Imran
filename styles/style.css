@@ -49,3 +49,78 @@ header {
     transform: translateY(-2px);
 }
 
+.hero,
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(to bottom right, #f0f4ff, #e0f7ff);
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.hero img {
+    max-width: 250px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: semibold;
+    margin: 20px 0 10px;
+}
+
+.section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section text {
+    font-size: 45px;
+    font-weight: semibold;
+}
+.section h3 {
+    font-size: 24px;
+    font-weight: semibold;
+}
+
+.section p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+.discussion-section {
+    background: linear-gradient(to bottom right, #f0f4ff, #e0f7ff);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.discussion-section img {
+    max-width: 430px;
+}
+
+.video {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+    background: #f3f4f7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px gray;
+}
+
+.video iframe {
+    width: 100%;
+    height: 560px;
+    border-radius: 10px;
+    border: none;
+}
